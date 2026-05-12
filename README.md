@@ -1,23 +1,20 @@
 # Modeling-Multifunctional-Landscape-Change
 This repository contains the R-based analytical workflow and visualization scripts for the manuscript: "Modeling Multifunctional Landscape Change: Diagnosing Spatial Trade-offs and Drivers in Arid and Semi-Arid Systems". The codebase facilitates the reproduction of summarized outputs from land use/land cover (LULC) transitions and model validation presented in the study.
-Table of Contents
-Overview
 
-Data Availability
+## Table of Contents
+1. Overview
+2. Data Availability
+3. Repository Structure
+4. Software Requirements
+5. Usage
 
-Repository Structure
-
-Software Requirements
-
-Usage
-
-Overview
+## Overview
 The provided code performs categorical validation of land cover projection models, analyzes driver importance (e.g., policy, slope, and fragmentation), and generates publication-quality figures representing LULC transitions and error budgets.
 
-Data Availability
+## Data Availability
 The geospatial data required to run these scripts are archived on Zenodo (DOI: [Insert DOI]). The scripts expect a specific directory structure (see Repository Structure) to locate preprocessed rasters and model outputs.
 
-Repository Structure
+## Repository Structure
 To ensure the scripts execute correctly, organize your local directory as follows:
 
 Plaintext
@@ -27,7 +24,8 @@ Plaintext
 │   ├── LCM_Outputs/       # Land Change Modeler results (.rst files)
 │   └── ComplementaryFiles/# Study area boundaries (.shp) and extent rasters
 └── Figures/               # Output directory for generated plots
-Script Descriptions
+
+### Script Descriptions
 Kotikot_EcoInf_Fig1_ChangeFactors_1May2026.R: Visualizes LULC change factors, including distance to various land classes and topographic variables.
 
 Kotikot_EcoInf_Fig3_BasePrediction_1May2026.R: Generates maps for reference (2018), hard prediction, and soft prediction scenarios.
@@ -40,10 +38,10 @@ Kotikot_EcoInf2026_VarImportance_1May2026-.R: Visualizes the importance of drive
 
 Kotikot_EcoInf_Fig7_Vars_vs_transitions_10May2026.R: Analyzes how physical and policy factors influence specific land use transitions.
 
-Software Requirements
+## Software Requirements
 The analysis was performed using R (version 4.x). The following packages are required:
 
-Spatial Analysis: terra, sf, tidyterra
+* Spatial Analysis: terra, sf, tidyterra
 
 Data Manipulation: tidyverse (dplyr, readr, tidyr)
 
@@ -62,5 +60,5 @@ Ensure the Data/ folder is in the parent directory of your scripts (or update th
 
 Run the scripts in RStudio to reproduce the manuscript figures.
 
-Authors
+## Authors
 Kotikot et al. (2026)
