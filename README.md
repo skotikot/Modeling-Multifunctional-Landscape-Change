@@ -32,11 +32,11 @@ Plaintext
 └── Figures/               # Output directory for generated plots
 
 ### Script Descriptions
-* `Fig1_ChangeFactors_1May2026.R`: Visualizes LULC change factors, including distance to various land classes and topographic variables.
+* `Fig1_ChangeFactors_1May2026.R`: Visualizes LULC change factors, including climate (rainfall, temperature) and topographic variables.
 
 * `Fig3_BasePrediction_1May2026.R`: Generates maps for reference (2018), hard prediction, and soft prediction scenarios.
 
-* `Fig4_ErrorBudget_1May2026.R`: Performs categorical validation comparing 2010 baseline, 2018 observed, and 2020 projection to calculate hits, misses, and false alarms.
+* `Fig4_ErrorBudget_1May2026.R`: Performs categorical validation comparing 2010 baseline, 2018 observed, and 2018 projection to calculate hits, misses, and false alarms.
 
 * `Fig5_ErrorVsTransitions_1May2026.R`: Analyzes model error categories specifically against transition types.
 
