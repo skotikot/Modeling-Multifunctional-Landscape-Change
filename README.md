@@ -20,10 +20,15 @@ To ensure the scripts execute correctly, organize your local directory as follow
 Plaintext
 
 ├── Scripts/               # Contains the R scripts in this repository
+
 ├── Data/
+
 │   ├── Preprocessed/      # .tif rasters (e.g., lu2010_4cls_90m.tif, slp.tif)
+
 │   ├── LCM_Outputs/       # Land Change Modeler results (.rst files)
+
 │   └── ComplementaryFiles/# Study area boundaries (.shp) and extent rasters
+
 └── Figures/               # Output directory for generated plots
 
 ### Script Descriptions
@@ -51,6 +56,7 @@ The analysis was performed using R (version 4.x). The following packages are req
 * You can install the necessary packages with:
 
 `R`
+
 `install.packages(c("terra", "sf", "tidyterra", "tidyverse", "patchwork", "cowplot", "paletteer", "tidytext"))`
 
 ## Usage
