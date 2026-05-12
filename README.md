@@ -25,24 +25,24 @@ Plaintext
 
 │   ├── Preprocessed/      # .tif rasters (e.g., lu2010_4cls_90m.tif, slp.tif)
 
-│   ├── LCM_Outputs/       # Land Change Modeler results (.rst files)
+│   ├── LCM_Outputs/       # Land Change Modeler results (.rst and .tif files)
 
-│   └── ComplementaryFiles/# Study area boundaries (.shp) and extent rasters
+│   └── ComplementaryFiles/# Study area boundaries (.shp) and extent rasters (.tif)
 
 └── Figures/               # Output directory for generated plots
 
 ### Script Descriptions
-Kotikot_EcoInf_Fig1_ChangeFactors_1May2026.R: Visualizes LULC change factors, including distance to various land classes and topographic variables.
+* `Fig1_ChangeFactors_1May2026.R`: Visualizes LULC change factors, including distance to various land classes and topographic variables.
 
-Kotikot_EcoInf_Fig3_BasePrediction_1May2026.R: Generates maps for reference (2018), hard prediction, and soft prediction scenarios.
+* `Fig3_BasePrediction_1May2026.R`: Generates maps for reference (2018), hard prediction, and soft prediction scenarios.
 
-Kotikot_EcoInf_Fig4_ErrorBudget_1May2026.R: Performs categorical validation comparing 2010 baseline, 2018 observed, and 2020 projection to calculate hits, misses, and false alarms.
+* `Fig4_ErrorBudget_1May2026.R`: Performs categorical validation comparing 2010 baseline, 2018 observed, and 2020 projection to calculate hits, misses, and false alarms.
 
-Kotikot_EcoInf_Fig5_ErrorVsTransitions_1May2026.R: Analyzes model error categories specifically against transition types.
+* `Fig5_ErrorVsTransitions_1May2026.R`: Analyzes model error categories specifically against transition types.
 
-Kotikot_EcoInf2026_VarImportance_1May2026-.R: Visualizes the importance of drivers like Temperature, Slope, and Policy across transition models.
+* `Fig6_VarImportance_1May2026-.R`: Visualizes the importance of drivers like Temperature, Slope, and Policy across transition models.
 
-Kotikot_EcoInf_Fig7_Vars_vs_transitions_10May2026.R: Analyzes how physical and policy factors influence specific land use transitions.
+* `Fig7_Vars_vs_transitions_10May2026.R`: Analyzes how physical and policy factors influence specific land use transitions.
 
 ## Software Requirements
 The analysis was performed using R (version 4.x). The following packages are required:
