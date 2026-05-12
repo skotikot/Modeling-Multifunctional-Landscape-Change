@@ -41,24 +41,22 @@ Kotikot_EcoInf_Fig7_Vars_vs_transitions_10May2026.R: Analyzes how physical and p
 ## Software Requirements
 The analysis was performed using R (version 4.x). The following packages are required:
 
-* Spatial Analysis: terra, sf, tidyterra
+* Spatial Analysis: `terra`, `sf`, `tidyterra`
 
-Data Manipulation: tidyverse (dplyr, readr, tidyr)
+* Data Manipulation: tidyverse (dplyr, readr, tidyr)
 
-Visualization: ggplot2, patchwork, cowplot, paletteer, tidytext
+* Visualization: ggplot2, patchwork, cowplot, paletteer, tidytext
 
-You can install the necessary packages with:
+* You can install the necessary packages with:
 
 R
-install.packages(c("terra", "sf", "tidyterra", "tidyverse", "patchwork", "cowplot", "paletteer", "tidytext"))
-Usage
-Clone this repository to your local machine.
+`install.packages(c("terra", "sf", "tidyterra", "tidyverse", "patchwork", "cowplot", "paletteer", "tidytext"))`
 
-Download the data from the Zenodo link provided in the Data Availability section.
-
-Ensure the Data/ folder is in the parent directory of your scripts (or update the file paths at the top of each script).
-
-Run the scripts in RStudio to reproduce the manuscript figures.
+## Usage
+1. Clone this repository to your local machine.
+2. Download the data from the Zenodo link provided in the Data Availability section.
+3. Ensure the Data/ folder is in the parent directory of your scripts (or update the file paths at the top of each script).
+4. Run the scripts in RStudio to reproduce the manuscript figures.
 
 ## Authors
 Kotikot et al. (2026)
