@@ -12,7 +12,7 @@ This repository contains the R-based analytical workflow and visualization scrip
 The provided code performs categorical validation of land cover projection models, analyzes driver importance (e.g., policy, slope, and fragmentation), and generates publication-quality figures representing LULC transitions and error budgets.
 
 ## Data Availability
-The geospatial data required to run these scripts are archived on Zenodo (DOI: [Insert DOI]). The scripts expect a specific directory structure (see Repository Structure) to locate preprocessed rasters and model outputs.
+The geospatial data required to run these scripts are archived on Zenodo (DOI: https://doi.org/10.5281/zenodo.20142764). The scripts expect a specific directory structure (see Repository Structure) to locate preprocessed rasters and model outputs. Download the "Data.zip" file and extract into your main directory.
 
 ## Repository Structure
 To ensure the scripts execute correctly, organize your local directory as follows:
