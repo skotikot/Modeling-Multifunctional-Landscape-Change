@@ -1,4 +1,4 @@
-All data are available on ZENODO at 
+All data are available on ZENODO at https://doi.org/10.5281/zenodo.20142764. Download the "Data.zip" file and extract the contents into you main directory. 
 
 1. ComplementaryFiles - Contents
 This folder contains a vector boundary file and area extent file required to maintain consistency across the analysis and to generate the final figures.
