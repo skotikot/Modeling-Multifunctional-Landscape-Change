@@ -61,7 +61,7 @@ The analysis was performed using R (version 4.x). The following packages are req
 
 ## Usage
 1. Clone this repository to your local machine.
-2. Download the data from the Zenodo link provided in the Data Availability section.
+2. Download the data from Zenodo [DOI: 10.5281/zenodo.20142764](https://doi.org/10.5281/zenodo.20142764).
 3. Ensure the Data/ folder is in the parent directory of your scripts (or update the file paths at the top of each script).
 4. Run the scripts in RStudio to reproduce the manuscript figures.
 
